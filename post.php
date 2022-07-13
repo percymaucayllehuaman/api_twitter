@@ -4,10 +4,10 @@ require_once('TwitterAPIExchange.php');
 
 /** Set access tokens here - see: https://dev.twitter.com/apps/ **/
 $settings = array(
-    'oauth_access_token' => "1546941728141238272-GNDTn6JWJiH2mul25Jl5bQyUcrvD0S",
-    'oauth_access_token_secret' => "sRjm68XHDsCn9swqS0iW2ngPHAbB2Pb10uPcPKnLeaYub",
-    'consumer_key' => "WyGuJ4p7Se73QDrbUX518yy4U",
-    'consumer_secret' => "GV0iG8oPd6SY65y5qXbP4cUjJ1pqdCFg8lC6SYvKq6fD7PN4UZ"
+    'oauth_access_token' => "-",
+    'oauth_access_token_secret' => "your key",
+    'consumer_key' => "your key",
+    'consumer_secret' => "your key"
 );
 
 /** URL for REST request, see: https://dev.twitter.com/docs/api/1.1/ **/
@@ -89,17 +89,17 @@ $postdata = array('status' => "UN SALUDO A TODOS....
 
 //consumer keys
 $api_key = "WyGuJ4p7Se73QDrbUX518yy4U";
-$api_key_secret = "GV0iG8oPd6SY65y5qXbP4cUjJ1pqdCFg8lC6SYvKq6fD7PN4UZ";
+$api_key_secret = "";
 
 //Authentication tokens
-$bearer_token = "AAAAAAAAAAAAAAAAAAAAAIsKewEAAAAA%2F9MEWXWpJaPza4kZLUHssaEScu8%3DAI2bpQh3drNiANWYuUHZkIIqlnsVv0KyTmiRlhoQ2keVwhNtEA";
-$access_token = "1546941728141238272-GNDTn6JWJiH2mul25Jl5bQyUcrvD0S";
-$acces_token_secret = "sRjm68XHDsCn9swqS0iW2ngPHAbB2Pb10uPcPKnLeaYub";
+$bearer_token = "%%";
+$access_token = "-";
+$acces_token_secret = "";
 
 
 ///Auth 2.0 Client ID and Client Secret
-//client id OE5TYWlfaWdBd2tWN05zdXRTdG46MTpjaQ
-//client secret   BF41kAeudfXxqlNVwS65Kw6ifmSPE0g9yK8ya6y3PWXwB7PBGv
+//client id 
+//client secret   
 // // 
 
 // App details 
