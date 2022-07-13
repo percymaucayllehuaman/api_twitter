@@ -4,7 +4,7 @@ require_once('TwitterAPIExchange.php');
 
 /** Set access tokens here - see: https://dev.twitter.com/apps/ **/
 $settings = array(
-    'oauth_access_token' => "1546941728141238272-your_key",
+    'oauth_access_token' => "-your_key",
     'oauth_access_token_secret' => "your_key",
     'consumer_key' => "your_key",
     'consumer_secret' => "your_key"
@@ -60,10 +60,10 @@ class Twitter
         // configuracion de la cuenta
         // configuracion de la cuenta
         $settings = array(
-            'oauth_access_token' => '1546941728141238272-GNDTn6JWJiH2mul25Jl5bQyUcrvD0S',
-            'oauth_access_token_secret' => 'sRjm68XHDsCn9swqS0iW2ngPHAbB2Pb10uPcPKnLeaYub',
-            'consumer_key' => 'WyGuJ4p7Se73QDrbUX518yy4U',
-            'consumer_secret' => 'GV0iG8oPd6SY65y5qXbP4cUjJ1pqdCFg8lC6SYvKq6fD7PN4UZ',
+            'oauth_access_token' => '-your key',
+            'oauth_access_token_secret' => 'your key',
+            'consumer_key' => 'your key',
+            'consumer_secret' => 'your key',
         );
 
         // establecer el mensaje
