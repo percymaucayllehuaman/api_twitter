@@ -43,48 +43,10 @@ if($_POST){
     header('location:index.php');
 }
 
-/********/
-$postdata = array('status' => "UN SALUDO A TODOS....
-    SOY *PERCY MAUCAYLLE HUAMAN*
-");
-
-// $twitter = new TwitterAPIExchange($settings);
-// echo $twitter->setPostfields($postdata)
-//     ->buildOauth($url, $requestMethod)
-//     ->performRequest();
-/*********/
-
-/** Perform a POST request and echo the response **/
-// $twitter = new TwitterAPIExchange($settings);
-// echo $twitter->buildOauth($url, $requestMethod)
-//              ->setPostfields($postfields)
-//              ->performRequest();
-
-
-
-/** Perform a GET request and echo the response **/
-/** Note: Set the GET field BEFORE calling buildOauth(); **/
-// $url = 'https://api.twitter.com/1.1/followers/ids.json';
-// $getfield = '?screen_name=J7mbo';
-// $requestMethod = 'GET';
-// $twitter = new TwitterAPIExchange($settings);
-// echo $twitter->setGetfield($getfield)
-//              ->buildOauth($url, $requestMethod)
-//              ->performRequest();
-
-
 // Size restrictions for uploading via API 
 // Image 5 MB
 // GIF 15 MB
 // Video 512 MB (when using media_category=amplify)
-
-
-
-
-
-
-
-
 
 
 //consumer keys
